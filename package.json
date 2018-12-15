@@ -1,0 +1,27 @@
+{
+  "name": "babel-spiffing",
+  "version": "1.0.0",
+  "description": "Thanks to\r [the babel plugin guide](https://github.com/jamiebuilds/babel-handbook/blob/master/translations/en/plugin-handbook.md#toc-writing-your-first-babel-plugin)\r and [if php were british](https://getpostcookie.com/blog/if-php-were-british), as well as\r [postcss-spiffing](https://github.com/hashanp/postcss-spiffing)\r for inspiration.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "babel test/index.js --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stanrogo/babel-spiffing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stanrogo/babel-spiffing/issues"
+  },
+  "homepage": "https://github.com/stanrogo/babel-spiffing#readme",
+  "devDependencies": {
+    "@babel/cli": "7.2.0",
+    "@babel/core": "7.2.0",
+    "@babel/preset-env": "7.2.0"
+  }
+}
